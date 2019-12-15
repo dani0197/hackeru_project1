@@ -1,0 +1,23 @@
+@use 'colors';
+@use 'fonts';
+
+body {   
+    background-color: colors.$white;
+    font-family: fonts.$roboto;
+}
+
+.navbar {
+    background-color: colors.$green;
+    font-family: fonts.$pattaya;
+}
+
+.img_carousel {
+    // width: 400px;
+    // height: 350px;
+}
+
+.img-fluid {
+    width: 50px;
+    height: 50px;
+}
+
