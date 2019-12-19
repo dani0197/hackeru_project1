@@ -9,11 +9,9 @@ body {
 .navbar {
     background-color: colors.$green;
     font-family: fonts.$pattaya;
-}
-
-.img_carousel {
-    // width: 400px;
-    // height: 350px;
+    a {
+        font-size: 2em;
+    }
 }
 
 .img-fluid {
@@ -21,3 +19,65 @@ body {
     height: 50px;
 }
 
+.carousel .carousel-item {
+    height: 500px;
+}
+  
+.carousel-item img {
+    position: absolute;
+    object-fit:cover;
+    top: 0;
+    left: 0;
+    min-height: 500px;
+}
+.carousel-img {
+    height: 500px;
+}
+
+.carousel-caption {
+    font-family: fonts.$hennyPenny;
+    // background-color: rgba($color: colors.$black, $alpha: 0.5);
+}
+
+.card-img-top {
+    width: 100%;
+    height: 250px;
+}
+
+.headers {
+    font-family: fonts.$hennyPenny;
+    // background-color: colors.$green;
+    display: inline-block;
+}
+
+// .row {
+//     // border: 1px solid;
+// }
+
+.banner-left {
+    background-color: colors.$green;
+}
+
+.banner-right {
+    background-color: colors.$green;
+}
+
+.main {
+    // border: 1px solid;
+    background-color: colors.$purple;
+    // text-align: center;
+}
+
+// .sponser-container {
+//     // border: 1px solid;
+// }
+
+footer {
+    // border: 1px solid;
+    background-color: colors.$yellow;
+    text-align: center;
+    p {
+        color: rgba($color: #000000, $alpha: 0.3);
+        text-decoration: underline;
+    }
+}
