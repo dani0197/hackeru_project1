@@ -44,6 +44,7 @@ body {
 
 .headers {
   font-family: "Henny Penny", cursive;
+  text-decoration: underline;
   display: inline-block;
 }
 

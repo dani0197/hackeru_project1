@@ -46,9 +46,9 @@ body {
 
 .headers {
     font-family: fonts.$hennyPenny;
-    // background-color: colors.$green;
+    text-decoration: underline;
     display: inline-block;
-}
+}   
 
 .text {
     font-family: fonts.$roboto;
