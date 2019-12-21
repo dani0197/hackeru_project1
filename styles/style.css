@@ -47,6 +47,10 @@ body {
   display: inline-block;
 }
 
+.text {
+  font-family: "Roboto", sans-serif;
+}
+
 .banner-left {
   background-color: #8CBF3F;
 }
@@ -62,9 +66,7 @@ body {
 footer {
   background-color: #F2CC0F;
   text-align: center;
-}
-footer p {
-  color: rgba(0, 0, 0, 0.3);
+  color: rgba(0, 0, 0, 0.4);
   text-decoration: underline;
 }
 
