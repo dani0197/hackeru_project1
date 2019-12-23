@@ -64,6 +64,11 @@ body {
   background-color: #9453A6;
 }
 
+.inner-flex-item {
+  width: 240px;
+  height: 160px;
+}
+
 footer {
   background-color: #F2CC0F;
   text-align: center;
