@@ -69,6 +69,14 @@ body {
   height: 160px;
 }
 
+.media-container {
+  height: 450px;
+}
+
+a {
+  color: black;
+}
+
 footer {
   background-color: #F2CC0F;
   text-align: center;
