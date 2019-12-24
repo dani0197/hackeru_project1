@@ -2,6 +2,7 @@
 body {
   background-color: #F2F2F2;
   font-family: "Roboto", sans-serif;
+  min-height: 100vh;
 }
 
 .navbar {
@@ -69,33 +70,38 @@ body {
   height: 160px;
 }
 
-.media-container {
-  min-height: 100vh;
-}
-
-.faq-container {
-  min-height: 100vh;
-}
-
 .btn-link.questions {
-  color: black;
+  color: #0D0D0D;
   text-decoration: none;
   font-size: 0.8em;
   font-family: "Pattaya", sans-serif;
 }
 
-.contact-container {
-  min-height: 100vh;
+a {
+  color: #0D0D0D;
+}
+a:hover {
+  color: #0D0D0D;
 }
 
-a {
-  color: black;
+.sponser-img {
+  width: 500px;
+  height: 400px;
+}
+.sponser-img img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.sponser-container {
+  text-align: center;
+  min-height: 100vh;
 }
 
 footer {
   background-color: #F2CC0F;
   text-align: center;
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(13, 13, 13, 0.4);
   text-decoration: underline;
 }
 
