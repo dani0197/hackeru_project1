@@ -79,14 +79,14 @@ body {
     height: 160px;
 }
 
-// .media-container {
-//     // border: 1px solid;
-//     min-height: 100vh;
-// }
+.media-container {
+    // border: 1px solid;
+    min-height: 100vh;
+}
 
-// .faq-container {
-//     min-height: 100vh;
-// }
+.faq-container {
+    min-height: 100vh;
+}
 
 .btn-link.questions {
     color: colors.$black;
@@ -95,9 +95,9 @@ body {
     font-family: fonts.$pattaya;
 }
 
-// .contact-container {
-//     min-height: 100vh;
-// }
+.contact-container {
+    min-height: 100vh;
+}
 
 a {
     color: colors.$black;
