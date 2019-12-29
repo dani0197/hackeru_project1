@@ -4,7 +4,7 @@
 body {   
     background-color: colors.$white;
     font-family: fonts.$roboto;
-    min-height: 100vh;
+    // min-height: 100vh; 
 }
 
 .navbar {
@@ -21,7 +21,7 @@ body {
 }
 
 .carousel .carousel-item {
-    height: 500px;
+    height: 700px;
 }
   
 .carousel-item img {
@@ -32,7 +32,7 @@ body {
     min-height: 500px;
 }
 .carousel-img {
-    height: 500px;
+    height: 100%;
 }
 
 .carousel-caption {
@@ -53,6 +53,7 @@ body {
 
 .text {
     font-family: fonts.$roboto;
+    font-size: 1.3em;
 }
 
 // .row {

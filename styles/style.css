@@ -2,7 +2,6 @@
 body {
   background-color: #F2F2F2;
   font-family: "Roboto", sans-serif;
-  min-height: 100vh;
 }
 
 .navbar {
@@ -19,7 +18,7 @@ body {
 }
 
 .carousel .carousel-item {
-  height: 500px;
+  height: 700px;
 }
 
 .carousel-item img {
@@ -31,7 +30,7 @@ body {
 }
 
 .carousel-img {
-  height: 500px;
+  height: 100%;
 }
 
 .carousel-caption {
@@ -51,6 +50,7 @@ body {
 
 .text {
   font-family: "Roboto", sans-serif;
+  font-size: 1.3em;
 }
 
 .banner-left {
