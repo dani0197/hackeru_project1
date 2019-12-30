@@ -4,6 +4,10 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+span {
+  font-size: 1.5em;
+}
+
 .navbar {
   background-color: #8CBF3F;
   font-family: "Pattaya", sans-serif;
